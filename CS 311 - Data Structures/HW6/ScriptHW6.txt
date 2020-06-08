@@ -1,0 +1,79 @@
+Script started on Fri Nov 17 21:48:20 2017
+[?1034hbash-3.2$ exitg++ -o run hw6Client.o llist.o slist.o dgraph.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pc hw6Client.cpp[4Pslist.cppllist.cppdgraph.cpp[C[C[C[C[C[C[C[C[C[Ccd Desktop/cs311files/CS311Progs/HWPrograms/[C[C[C[C[C[C[C[C[C[C[14Pssh guili002@empress.csusm.edu[C[C[C[C[C[C[C[C[C[Ccd Desktop/cs311files/CS311Progs/HWPrograms/[C[C[C[C[C[C[C[C[C[C[27Pg++ -c dgraph.cpp[1Pllist.cppdgraph.cpp[C[C[C[C[C[C[C[C[C[Ccd Desktop/cs311files/CS311Progs/HWPrograms/[C[C[C[C[C[C[C[C[C[C[27Pg++ -c dgraph.cpp[1Pllist.cppslist.cppllist.cpp
+bash-3.2$ g++ -c llist.cpp[C[C[C[C[C[C[C[C[C[Cexit[Kg++ -o run hw6Client.o llist.o slist.o dgraph.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pc hw6Client.cpp[4Pslist.cpphw6Client.cpp
+bash-3.2$ g++ -c hw6Client.cpp[4Pllist.cpp[C[C[C[C[C[C[C[C[C[Cexit[Kg++ -o run hw6Client.o llist.o slist.o dgraph.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pc hw6Client.cpp[4Pslist.cpp
+bash-3.2$ g++ -c slist.cpphw6Client.cpp[4Pllist.cpp[C[C[C[C[C[C[C[C[C[Cexit[Kg++ -o run hw6Client.o llist.o slist.o dgraph.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pc hw6Client.cpp[4Pslist.cppllist.cppdgraph.cpp[C[C[C[C[C[C[C[C[C[Ccd Desktop/cs311files/CS311Progs/HWPrograms/[C[C[C[C[C[C[C[C[C[C[27Pg++ -c dgraph.cpp
+bash-3.2$ g++ -c dgraph.cpp[1Pslist.cpphw6Client.cpp[4Pllist.cpp[C[C[C[C[C[C[C[C[C[Cexit[Kg++ -o run hw6Client.o llist.o slist.o dgraph.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pc hw6Client.cppo run hw6Client.o llist.o slist.o dgraph.o
+bash-3.2$ ./run 
+filling table
+table is filled!
+displaying graph
+Vertex      Out Degree  adjacentOnes
+A           2           [ B F ]
+B           2           [ C G ]
+C           1           [ H ]
+D           0           [ empty ]
+E           0           [ empty ]
+F           2           [ I E ]
+G           0           [ empty ]
+H           2           [ G I ]
+I           3           [ A G E ]
+Enter vertex to find OutDegree (type 0 to exit): A
+2
+Enter vertex to find OutDegree (type 0 to exit): B
+2
+Enter vertex to find OutDegree (type 0 to exit): I
+3
+Enter vertex to find OutDegree (type 0 to exit): Q
+Bad vertex.
+Enter vertex to find OutDegree (type 0 to exit): F
+2
+Enter vertex to find OutDegree (type 0 to exit): C
+1
+Enter vertex to find OutDegree (type 0 to exit): 0
+Enter vertex to find adjecentOnes (type 0 to exit): A
+calling the llist destructor.
+[ B F ]
+Enter vertex to find adjecentOnes (type 0 to exit): B
+calling the llist destructor.
+[ C G ]
+Enter vertex to find adjecentOnes (type 0 to exit): C
+calling the llist destructor.
+[ H ]
+Enter vertex to find adjecentOnes (type 0 to exit): D
+calling the llist destructor.
+[ empty ]
+Enter vertex to find adjecentOnes (type 0 to exit): Q
+Bad vertex.
+Enter vertex to find adjecentOnes (type 0 to exit): E
+calling the llist destructor.
+[ empty ]
+Enter vertex to find adjecentOnes (type 0 to exit): A
+calling the llist destructor.
+[ B F ]
+Enter vertex to find adjecentOnes (type 0 to exit): 0
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+calling the llist destructor.
+bash-3.2$ exit
+exit
+
+Script done on Fri Nov 17 21:49:27 2017
