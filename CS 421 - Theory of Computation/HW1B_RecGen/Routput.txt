@@ -1,0 +1,32 @@
+Script started on Fri 13 Sep 2019 04:12:54 PM PDT
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[?1034h[guili002@empress HW1B_RecGen]$ g++ recognizer.cpp 
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[guili002@empress HW1B_RecGen]$ ./a.out 
+Enter a binary number: 0
+Checking 0...
+YES IN L
+
+Enter a binary number: 1
+Checking 1...
+YES IN L
+
+Enter a binary number: 00110
+Checking 00110...
+YES IN L
+
+Enter a binary number: 2
+Checking 2...
+NO NOT IN L
+
+Enter a binary number: 02
+Checking 02...
+NO NOT IN L
+
+Enter a binary number: 31
+Checking 31...
+NO NOT IN L
+
+Enter a binary number: ^X^C
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[guili002@empress HW1B_RecGen]$ exit
+exit
+
+Script done on Fri 13 Sep 2019 04:13:26 PM PDT

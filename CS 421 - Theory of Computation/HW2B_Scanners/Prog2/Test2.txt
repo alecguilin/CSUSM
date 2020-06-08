@@ -1,0 +1,107 @@
+Script started on Fri 04 Oct 2019 10:58:12 PM PDT
+]0;guili002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[?1034h[guili002@empress Prog2]$ g++ td.cpp
+]0;guili002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[guili002@empress Prog2]$ ./a.out 
+This is a table driven scanner. Needs trs.txt and dfas.txt.
+States are 0 to 9 and chars are a to d
+         a b c d
+State 0: 0 1     
+State 1:         
+State 2:     2 3 
+State 3:         
+State 4:         
+State 5:         
+State 6:         
+State 7:         
+State 8:         
+State 9:         
+
+token1
+start state: 0
+final state: 1
+
+token2
+start state: 2
+final state: 3
+
+.....done reading tables....
+@@Enter a string: ab
+Trying DFA 0.....
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+ab is accepted! 
+Token name: token1
+do control-C to quit
+@@Enter a string: abb
+Trying DFA 0.....
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+state: 1 char: b
+new state: -1
+Trying DFA 1.....
+state: 2 char: a
+new state: -1
+LEXICAL ERROR!
+do control-C to quit
+@@Enter a string: aaab
+Trying DFA 0.....
+state: 0 char: a
+new state: 0
+state: 0 char: a
+new state: 0
+state: 0 char: a
+new state: 0
+state: 0 char: b
+new state: 1
+aaab is accepted! 
+Token name: token1
+do control-C to quit
+@@Enter a string: cd
+Trying DFA 0.....
+state: 0 char: c
+new state: -1
+Trying DFA 1.....
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+cd is accepted! 
+Token name: token2
+do control-C to quit
+@@Enter a string: cdd
+Trying DFA 0.....
+state: 0 char: c
+new state: -1
+Trying DFA 1.....
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+state: 3 char: d
+new state: -1
+LEXICAL ERROR!
+do control-C to quit
+@@Enter a string: cccd
+Trying DFA 0.....
+state: 0 char: c
+new state: -1
+Trying DFA 1.....
+state: 2 char: c
+new state: 2
+state: 2 char: c
+new state: 2
+state: 2 char: c
+new state: 2
+state: 2 char: d
+new state: 3
+cccd is accepted! 
+Token name: token2
+do control-C to quit
+@@Enter a string: ^C
+]0;guili002@empress:~/cs421/CS421Progs/HW2B_Scanners/Prog2[guili002@empress Prog2]$ exit
+exit
+
+Script done on Fri 04 Oct 2019 10:58:48 PM PDT

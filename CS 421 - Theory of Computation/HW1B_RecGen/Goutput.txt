@@ -1,0 +1,23 @@
+Script started on Fri 13 Sep 2019 04:22:28 PM PDT
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[?1034h[guili002@empress HW1B_RecGen]$ g++ -std=c++0x filename.cpp -o[[[[[[[[[[[[[[[[Kgenerator.cpp
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[guili002@empress HW1B_RecGen]$ ./a.out 
+filling queue....
+queue filled
+0
+1
+00
+01
+10
+11
+000
+001
+010
+011
+100
+101
+110
+111
+]0;guili002@empress:~/cs421/CS421Progs/HW1B_RecGen[guili002@empress HW1B_RecGen]$ exit
+exit
+
+Script done on Fri 13 Sep 2019 04:22:41 PM PDT
