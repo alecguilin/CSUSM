@@ -1,0 +1,23 @@
+CreateNewPackage LouBrown 1MainSt Boston MA 11111 MarySmith 7ElmSt NewYork NY 22222 FY0002 05/03/2016 8.5 0.5 none
+CreateNewPackage AmyJohnson 3425RegentsRd SanDiego CA 92130 EdwardJohnes 439NWGreens Fayetteville NY 13066 HG9983 06/03/2016 10 0.7 upto100
+CreateNewPackage BrianFlemings 4356NobelDr SanDiego CA 92130 MarySmith 1245ViaLaGitano Poway CA 93064 LM9983 10/09/2016 3 0.3 upto5000
+PrintAllPackages
+CreateNewPriority JuliaWu 4387StMary Lafayette LA 70504 DanielTessier 234JohnsonSt Lafayette LA 70503 JJ3981 12/30/2015 8.8 0.2 upto100 envelope 10 5 0 
+CreateNewPriority LisaKlein 5Broadway Somerville MA 33333 BobGeorge 21PineRd Cambridge MA 44444 JJ8765 07/20/2014 10.5 0.65 upto1000 letter 2 2 0
+CreateNewPriority JaredBeth 6GenesseeRd Hillsboro OR 97124 AndreaSmith 65SquareBlvd Philadelphia PA 19121 PO0900 01/12/2015 12 1.1 upto100 box 5 6 3
+CreateNewPriority CarolynDavis 101DoveSt SanDiego CA 92129 BrianJames 8765HilcrestRd LasVegas NV 89116 ZT6751 09/14/2016 5 0.3 none box 7 15 3
+CreateNewPriority MatthewGarcia 10876PowayRd Poway CA 93064 JennyFox 125BridleRd Manlius NY 13057 BV7800 12/01/2016 17 0.9 upto5000 box 10 10 4
+CreateNewPriority AmeliaPerez 908BrooksAve Houston TX 77001 MichaelBrown 3987BrieSt Beaverton OR 97076 RS1010 12/21/2015 5 0.2 none box 3 10 5
+PrintAllPriorityPackages
+CreateNewExpress EdLewis 2OakSt Boston MA 55555 DonKelly 9MainSt Denver CO 66666 LL1322 03/08/2017 12.25 0.7 none 2.0
+CreateNewExpress MaryPalmer 6534SpringburstDr PalmSprings CA 92240 DennisGarcia 8FifthSt Denver CO 66665 UI0900 10/11/2016 20.1 0.8 upto5000 7
+CreateNewExpress JoeGarcia 4320CaminoDr LaJolla CA 92037 JamieCliff 7655FrieserDr Bellevue WA 98005 KI0067 02/05/2017 9.3 3 upto100 5
+CreateNewExpress MandyDidier 8764CreekViewBlvd Fayetteville NY 13066 SuzyWalter 8765RegentsRd SanDiego CA 92131 WV4544 12/01/2016 8.2 1.1 none 8
+PrintAllExpressPackages
+CreateNewInternational BobHaynes 8765Creekbridge Philadelphia PA 19121 FredGreen 98023NinthSt Rome Lazio 92127 ZUI9823 12/01/2016 13.3 0.9 none Italy
+CreateNewInternational SandySeidle 8765AribaSt Lafayette LA 70505 JaredMcNeely 453TwinOaks Ottawa ON 92024 UII9912 12/10/2016 12.5 0.5 upto5000 Canada
+CreateNewInternational SirishAditi 7626ViaMarcos Austin TX 78702 MayaBliss 1234SirishWay Mumbai Maharashtra 400007 KII9823 01/01/2017 7 0.9 none India
+CreateNewInternational MichelBrea 453TwinOaks SanMarcos CA 92024 SophiePres 1234SLavue Paris Paris 02345 MLI5020 02/01/2017 16 0.8 upto1000 France
+PrintAllInternationalPackages
+PrintAllShippedonYear 2016
+CalculateTotalCost

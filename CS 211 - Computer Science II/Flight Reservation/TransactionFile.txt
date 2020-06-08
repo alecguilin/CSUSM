@@ -1,0 +1,70 @@
+CreateNewPassenger Joe Garcia DF1298 M 33 none vegetarian
+CreateNewPassenger Amelia Perez FG7654 F 28 bassinet chicken
+CreateNewPassenger Bob Haynes AC9872 M 59 wheelchair vegetarian
+CreateNewPassenger Tim Ducrest AW2345 M 43 none none  
+CreateNewPassenger Kevin Garcia NN7655 M 6 child none
+CreateNewPassenger Suzy Walter FP3067 F 65 wheelchair none
+CreateNewPassenger Fang Yi FP0098 F 32 none chicken
+CreateNewPassenger Amelia Perez FG7654 F 28 bassinet chicken
+CreateNewPassenger Robert James BH7676 M 39 none none
+CreateNewPassenger Mary Palmer BH5454 F 35 bassinet none
+CreateNewPassenger Paul Didier HG7656 M 72 wheelchair fish
+CreateNewPassenger Mireille Sage DF3456 F 7 child chicken
+CreateNewPassenger Tim Ducrest AW2345 M 43 none none
+CreateNewPassenger Julia Pompano DF6987 F 77 wheelchair vegetarian
+CreateNewPassenger Rose Hunter JH7321 F 41 none chicken
+CreateNewPassenger Joe Garcia DF1298 M 33 none vegetarian
+CreateNewPassenger Suzy Walter AD7654 F 22 none fish
+CreateNewPassenger Michel Etheredge GH6543 M 72 wheelchair none
+ 
+PrintAllPassengers 
+ 
+CreateNewFlight SAN LAX 04/03/2016 8:30 9:05 0.35 10
+CreateNewFlight SAN LAX 04/03/2016 9:30 10:08 0.38 15
+CreateNewFlight SAN LAX 04/03/2016 11:00 11:30 0.30 50
+CreateNewFlight SAN MDW 05/03/2016 8:30 11:35 4.05 50
+CreateNewFlight SAN LAX 05/03/2016 8:30 9:05 0.35 10
+ 
+PrintAllFlights
+ 
+PrintSpecificFlights SAN LAX 04/03/2016
+PrintSpecificFlights SAN MDW 04/03/2016
+ 
+AddFlightPassenger 100 AD7654
+AddFlightPassenger 110 DF1298
+AddFlightPassenger 100 FG7654
+AddFlightPassenger 100 HG7656
+AddFlightPassenger 100 AC9872
+AddFlightPassenger 100 AD7652
+AddFlightPassenger 100 AW2345
+AddFlightPassenger 120 NN7655
+AddFlightPassenger 130 HG7656
+AddFlightPassenger 100 JH7321
+AddFlightPassenger 100 AD7654
+AddFlightPassenger 100 BH7676
+AddFlightPassenger 100 BH5454
+AddFlightPassenger 100 FG7654
+AddFlightPassenger 100 DF6987
+AddFlightPassenger 100 FP0098
+AddFlightPassenger 120 FP0098
+AddFlightPassenger 100 FP3067
+AddFlightPassenger 150 FP3067
+ 
+RemoveFlightPassenger 100 BH7676 
+RemoveFlightPassenger 100 FP3067 
+RemoveFlightPassenger 150 FG7654  
+ 
+AddFlightPassenger 100 FP0098  
+AddFlightPassenger 100 FP3067
+ 
+PrintFlightInfo 100
+PrintFlightPassengers 100
+PrintFlightInfo 110
+PrintFlightPassengers 110
+PrintFlightInfo 150  
+ 
+isFlightFull 100
+isFlightFull 130
+ 
+PrintAssistancePassengers 100 wheelchair
+PrintAssistancePassengers 100 vegetarian
