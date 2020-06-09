@@ -1,5 +1,5 @@
 # CSUSM
-A collection of coursework and projects compiled from my studies at California State University San Marcos.
+A collection of some of the coursework and projects compiled from my studies at California State University San Marcos.
 
 Included:
 
